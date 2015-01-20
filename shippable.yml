@@ -1,4 +1,4 @@
-build_image: ruby:2.1.2-onbuild
+build_image: shippableimages/ubuntu1404_ruby
 language: ruby
 ruby:
 	- 2.1.2
