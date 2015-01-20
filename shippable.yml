@@ -1,4 +1,6 @@
-build_image: shippableimages/ubuntu1404_ruby
+# language setting
 language: ruby
-ruby:
-	- 2.1.2
+
+# version numbers
+rvm:
+  - 2.1.2
