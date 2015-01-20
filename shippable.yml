@@ -1,0 +1,4 @@
+build_image: ruby:2.1.2-onbuild
+language: ruby
+ruby:
+	- 2.1.2
