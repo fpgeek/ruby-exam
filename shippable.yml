@@ -4,3 +4,9 @@ language: ruby
 # version numbers
 rvm:
   - 2.1.2
+
+env:
+  - PORT=9000
+
+script:
+  - bundle exec thin -p $PORT start
